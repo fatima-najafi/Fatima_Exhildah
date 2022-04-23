@@ -1,0 +1,81 @@
+  #text , #email, #submit{
+
+    display: block;
+    width: 20%;
+    height:35px;
+    padding: 5px 10px;
+    color:#A3A3A3;
+    background-color: #3020DF;
+    border: 1px solid #2946FF;
+    border-radius: 5px;
+    font-size:22px;
+    margin-bottom: 20px;
+    }
+    #nav-bar{
+        text-align:center;
+        padding:12px;
+        font-size:22px;
+
+    }
+
+
+
+header{
+  postition:fixed;
+  top:0px;
+   width:100%;
+  height:80px;
+  padding:28px 0px;
+  display:flex;
+  margin:0px 190px;
+  align-items:center;
+
+
+
+  justify-content: space-between;
+}
+
+@media (max-width:500px){
+  body{
+    flex-wrap:wrap;
+    padding:20px;
+    margin:20px;
+  }
+  .text{
+    width:80%;
+    heigth:10px;
+    padding:25px 75px;
+    boder:1 px solid red;
+    border-radious:25px;
+    background-color:#fff;
+  }
+  footer {
+  background-color: hsl(45, 50%, 90%);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  padding-bottom: 0px;
+  }
+}
+  #nav-bar {
+    position: fixed;
+    top: 0px;
+    width:100%;
+
+}#header-img{
+  width:405px;
+  margin-top:120px;
+  opacity:0.7;
+  fload:right;
+}
+#job{
+  margin-top:300px;
+}
+ #learning{
+     margin-top:200px;
+ }
+ #communication{
+    margin-top:250px;
+ }
